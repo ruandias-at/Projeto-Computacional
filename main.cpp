@@ -25,11 +25,11 @@ vector<Venda> historicoVendas; // Armazena as vendas realizadas em um vetor que 
 void inicializarProdutos() {
     // Adiciona produtos fictícios ao mapa 'produtos' (nome e preço)
     produtos["Camiseta"] = 29.90;
-    produtos["Calça Jeans"] = 89.90;
-    produtos["Tênis Esportivo"] = 159.90;
+    produtos["Calca Jeans"] = 89.90;
+    produtos["Tenis Esportivo"] = 159.90;
     produtos["Jaqueta de Couro"] = 199.90;
-    produtos["Boné"] = 19.90;
-    produtos["Relógio"] = 120.50;
+    produtos["Bone"] = 19.90;
+    produtos["Relogio"] = 120.50;
     produtos["Mochila"] = 69.90;
     produtos["Fone de Ouvido"] = 79.90;
     produtos["Caderno"] = 15.50;
@@ -161,9 +161,7 @@ int main() {
     // Inicializa os produtos fictícios
     inicializarProdutos(); // Chama a função para adicionar produtos fictícios
 
-    // Para Windows, tentamos usar UTF-8 e a configuração da página de código
-    setlocale(LC_ALL, "pt_BR.UTF-8"); // Configura o locale para UTF-8 (funciona no Linux/macOS)
-    // Para Windows, tente configurar a página de código para UTF-8
+    setlocale(LC_ALL, "pt_BR.UTF-8"); // Configura o locale para UTF-8
     system("chcp 65001"); // Definir o código da página para UTF-8 no terminal Windows
     int opcao; // Variável para armazenar a opção escolhida pelo usuário
 
