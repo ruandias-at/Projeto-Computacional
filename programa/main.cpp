@@ -162,7 +162,6 @@ int main() {
     inicializarProdutos(); // Chama a função para adicionar produtos fictícios
 
     setlocale(LC_ALL, "pt_BR.UTF-8"); // Configura o locale para UTF-8
-    system("chcp 65001"); // Definir o código da página para UTF-8 no terminal Windows
     int opcao; // Variável para armazenar a opção escolhida pelo usuário
 
     while (true) { // Laço principal do menu
